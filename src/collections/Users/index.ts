@@ -77,7 +77,7 @@ export const Users: CollectionConfig = {
       },
       admin: {
         condition: ({ roles }) => roles && !roles.includes('admin'),
-        description: 'This field sets which sites that this user has access to.',
+        description: 'This field sets which policys that this user has access to.',
       },
     },
   ],

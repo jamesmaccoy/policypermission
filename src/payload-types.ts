@@ -362,7 +362,7 @@ export interface User {
   lastName: string;
   roles?: ('admin' | 'editor')[] | null;
   /**
-   * This field sets which sites that this user has access to.
+   * This field sets which policys that this user has access to.
    */
   policys?: (string | Policy)[] | null;
   updatedAt: string;
